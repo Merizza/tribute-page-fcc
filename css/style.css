@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script|EB+Garamond");
+body {
+  font-family: "EB Garamond", serif;
+}
+
+header {
+  margin: auto;
+  height: auto;
+}
+
+#header-title {
+  background-color: #313941;
+  color: #eeeee6;
+}
+#header-title p {
+  font-family: "EB Garamond", serif;
+  font-size: 18px;
+  line-height: 0.95;
+  text-align: right;
+  padding: 70px 50px 0 150px;
+}
+#header-title .title {
+  margin: 100px 15px 15px -15px;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+#header-title .title span {
+  font-size: 200%;
+}
+
+#header-image {
+  padding: 0;
+}
+#header-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.heading {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.heading h2 {
+  font-size: 50px;
+  text-align: center;
+  color: #313941;
+}
+
+.clearfix:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+#timeline {
+  font-size: 24px;
+  text-align: left;
+}
+
+#pictures {
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#pictures div img {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border: 2px solid #eeeee6;
+}
+
+ul li {
+  list-style: none;
+}
+ul li span {
+  color: #313941;
+}
+ul li .year {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#works {
+  text-align: center;
+}
+#works div img {
+  display: inline-blocks;
+  width: 150px;
+  height: 200px;
+}
+
+#additional p {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  color: #9c9c94;
+  background-color: #eeeee6;
+}
+footer span {
+  color: #313941;
+}
